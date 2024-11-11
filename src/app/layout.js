@@ -29,6 +29,14 @@ export default function RootLayout({ children }) {
       >
       <NavBar/>
         {children}
+        <footer className="text-center text-gray-500 text-sm py-4 fixed bottom-0 w-full">
+          <div>
+            &copy; {new Date().getFullYear()}{" "}
+            <a href="https://rochdi.dev" className="text-blue-600">
+              Rochdi
+            </a>
+          </div>
+        </footer>
       </body>
     </html>
   );
