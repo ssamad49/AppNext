@@ -20,6 +20,7 @@ export default function NavBar() {
                         <Link href="/" className="hover:text-gray-300">Home</Link>
                         <Link href="/dashboard" className="hover:text-gray-300">dashboard</Link>
                         <Link href="/profile" className="hover:text-gray-300">profile</Link>
+                        <Link href="/products" className="hover:text-gray-300">Products</Link>
                     </div>
                     <div className="flex md:hidden items-center">
                         <button onClick={toggleMenu} className="text-gray-400 hover:text-white focus:outline-none">
