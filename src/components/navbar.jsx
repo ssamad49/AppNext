@@ -18,8 +18,8 @@ export default function NavBar() {
                     </div>
                     <div className="hidden md:flex items-center space-x-4">
                         <Link href="/" className="hover:text-gray-300">Home</Link>
-                        <Link href="/dashboard" className="hover:text-gray-300">dashboard</Link>
-                        <Link href="/profile" className="hover:text-gray-300">profile</Link>
+                        {/* <Link href="/dashboard" className="hover:text-gray-300">dashboard</Link> */}
+                        <Link href="/todos" className="hover:text-gray-300">to-do list</Link>
                         <Link href="/products" className="hover:text-gray-300">Products</Link>
                     </div>
                     <div className="flex md:hidden items-center">
