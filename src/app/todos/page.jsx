@@ -10,6 +10,11 @@ export default async function todos() {
     return (
         <div className=" container m-auto mt-3">
             <h1>Todo List</h1>
+            <div className="flex justify-end mb-2">
+                <Button variant="outline" asChild>
+                    <Link href="/todos/create">Create</Link>
+                </Button>
+            </div>
             <table className="min-w-full border border-gray-300">
                 <thead className="bg-gray-200">
                     <tr>
