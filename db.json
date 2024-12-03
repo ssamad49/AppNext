@@ -1,11 +1,6 @@
 {
   "todos": [
     {
-      "id": "1",
-      "title": "Learn React",
-      "completed": true
-    },
-    {
       "id": "e915",
       "title": "rochdi88",
       "completed": true
@@ -18,16 +13,6 @@
     {
       "id": "7510",
       "title": "rochdi88",
-      "completed": true
-    },
-    {
-      "id": "b665",
-      "title": "rochdi99",
-      "completed": false
-    },
-    {
-      "id": "5c88",
-      "title": "hjghjgjhg",
       "completed": true
     }
   ]

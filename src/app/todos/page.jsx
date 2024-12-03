@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import { DeleteTodo } from "@/components/ui/deleteTodo";
 import Link from "next/link";
 
 export default async function todos() {
@@ -31,9 +32,7 @@ export default async function todos() {
                             <td className="border border-gray-300 px-4 py-2">{todo.title}</td>
                             <td className="border border-gray-300 px-4 py-2">{todo.completed ? 'Yes' : 'No'}</td>
                             <td className="border border-gray-300 px-4 py-2">
-                            <Button variant="outline" asChild>
-                                <Link href={`/todos/delete/${todo.id}`}>Delete</Link>
-                            </Button>
+                            <DeleteTodo  todo={todo} />
                             </td>
 
                         </tr>
